@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		  <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Wadia Jara Quesieh</title>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body class="lightgrey content">
+        <aside>
+            <nav id="mySidebar" class="sidebar white animate-left"><br>
+                <div class="container">
+                  <img src="images/myphoto.jpg" class="round"><br><br>
+                  <h4><b>PORTFOLIO</b></h4>
+                  <p class="textgrey">Create by Wadia Jara</p>
+                  <p class="textgrey">RRC WEBD-1007, 2024</p>
+                </div>
+                <div class="barblock">
+                  <a href="index.html" class="barItem button"><i class="fa fa-th-large fa-fw marginright"></i>HOME</a> 
+                  <a href="portfolio.html" class="barItem button"><i class="fa fa-user fa-fw marginright"></i>PORTFOLIO</a> 
+                  <a href="contact.html" class="barItem button textTeal"><i class="fa fa-envelope fa-fw marginright"></i>CONTACT</a>
+                </div>
+                <div class="panel large">
+                    <a href="https://www.linkedin.com/in/wjaraquesieh/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <p class="textgrey small"><i class="fa fa-map-pin"></i> Winnipeg, Manitoba</p>
+                    <p class="textgrey small"><i class="fa fa-phone"></i> (204) 698 9242</p>
+                    <p class="textgrey small"><i class="fa fa-envelope"></i> wadiia.j@gmail.com</p>
+                </div>
+              </nav>
+        </aside>
+
+        <main>
+            <header id="portfolio">
+                <div class="container">
+                    <h1><b>Contact me</b></h1>
+                    <div class="section bottombar"></div>
+                </div>
+            </header>
+
+            <div class="rowpadding">
+                <div class="container marginbottom">
+                  <div class="container colorblock">
+                    <form method="post" id="contactForm">
+                        <fieldset>
+                            <legend></legend>
+                            <hr/>
+                            <div class="formfield">
+                                <label for="name" class="contact">Name</label>
+                                <input type="text" id="name" name="name" value="" autofocus="autofocus" />					
+                                <div class="form_error error" id="name_error">* Please enter your name.</div>
+                            </div>
+                            <div class="formfield">
+                                <label for="phone" class="contact">Phone Number</label>
+                                <input type="text" id="phone" name="phone" maxlength="10" placeholder="2041111111" />
+                                <div class="form_error error" id="phone_error">* Please enter your phone number.</div>
+                            </div>
+                            <div class="formfield">
+                                <label for="email" class="contact">Email Address</label>
+                                <input type="email" id="email" name="email" />
+                                <div class="form_error error" id="email_error">* Please enter a valid email.</div>
+                            </div>
+                            <div class="formfield">
+                                <label for="coments" class="contact">Coments</label>
+                                <textarea id="coments" name="coments" rows="5"></textarea>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <hr />
+                            <button type="reset" >Clear</button>
+                            <button type="submit" >Send Info</button>
+                        </fieldset>
+                    </form>
+                  </div>
+                </div>
+            </div>
+
+            <div class="rowpadding">
+                <div class="container marginbottom">
+                  <div class="container colorblock">
+                </div>
+              </div>
+          </div>
+
+        </main>
+
+    </body>
+</html>
